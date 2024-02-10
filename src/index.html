@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=300, initial-scale=1.0" />
+    <title>Calculator Extension</title>
+    <link href="reset.css" rel="stylesheet" />
+    <link href="tailwind.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="flex" style="font-size: 1.5rem">
+      <div class="bg-gray-200 shadow-lg rounded-lg p-6">
+        <div class="mb-4">
+          <input
+            type="text"
+            class="text-right rounded-md pr-3"
+            id="display"
+            placeholder="0"
+          />
+        </div>
+        <div class="grid grid-cols-4 gap-2">
+          <button class="bg-gray-400 button rounded-md">1</button>
+          <button class="bg-gray-400 button rounded-md">2</button>
+          <button class="bg-gray-400 button rounded-md">3</button>
+          <button class="bg-red-400 button rounded-md" id="clear">AC</button>
+          <button class="bg-gray-400 button rounded-md">4</button>
+          <button class="bg-gray-400 button rounded-md">5</button>
+          <button class="bg-gray-400 button rounded-md">6</button>
+          <button class="bg-gray-400 button rounded-md">*</button>
+          <button class="bg-gray-400 button rounded-md">7</button>
+          <button class="bg-gray-400 button rounded-md">8</button>
+          <button class="bg-gray-400 button rounded-md">9</button>
+          <button class="bg-gray-400 button rounded-md">/</button>
+          <button class="bg-gray-400 button rounded-md">0</button>
+          <button class="bg-gray-400 button rounded-md">+</button>
+          <button class="bg-gray-400 button rounded-md">-</button>
+          <button class="bg-gray-400 button rounded-md">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
